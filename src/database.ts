@@ -3,7 +3,8 @@ import config from "./config/config";
 
 const dbOptions: ConnectionOptions = {
     useNewUrlParser: true,
-    useUnifiedTopology: true
+    useUnifiedTopology: true,
+    useCreateIndex: true
 };
 
 // mongoose modulo de conexion 
@@ -18,4 +19,4 @@ connection.once('open', () => {
 connection.on('error', err => {
     console.log(err);
     process.exit(0);
-})
+});
