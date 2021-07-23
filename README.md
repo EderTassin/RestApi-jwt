@@ -17,3 +17,6 @@ npm run dev
 npm run start
 ```
 ## 🪐
+
+[TW](https://twitter.com/EderTassin) 🐦
+[LI](https://www.linkedin.com/in/eder-tassin)📲
